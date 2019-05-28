@@ -1,0 +1,28 @@
+.SideBar{
+  background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgb(245, 245, 245, 1)), url(https://images.unsplash.com/photo-1547138666-12a241be3c2d?w&#x3D;1300);
+  background-position: center;
+  background-size: cover !important;
+  color: white;
+  font-size: 3vh;
+  padding: 10em 2em 10em 3em;
+}
+
+.SideBar p{
+  margin: 0
+}
+
+.SideBar a{
+  color: white;
+  text-decoration: none;
+}
+
+.SideBar a:hover{
+  color: #0d0f11;
+}
+
+.SideBar span{
+  font-size: 2vh;
+  display: grid;
+  grid-template-columns: 5% 95%;  
+  align-items: center;
+}
