@@ -15,6 +15,7 @@ html, body, #root{
 .Main-Content{
   padding: 5em 5em 2em 2em;
   margin-right: 2em;
+  background-color: #F5F5F5;
 }
 
 .Main-Cards{
@@ -45,4 +46,18 @@ html, body, #root{
 .image {
   max-height: 400px;
   max-width: 300px;
+}
+
+@media only screen and (max-width: 1300px){
+  .App {
+    grid-template-columns: 100%;
+  }
+  .Main-Content {
+    margin-right: 0 !important;
+  }
+}
+@media only screen and (max-width: 600px){
+  .Main-Cards {
+    grid-template-columns: 100% !important;
+  }
 }

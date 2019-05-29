@@ -1,5 +1,5 @@
 .SideBar{
-  background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgb(245, 245, 245, 1)), url(https://images.unsplash.com/photo-1547138666-12a241be3c2d?w&#x3D;1300);
+  background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgb(245, 245, 245)), url(./assets/background-image.jpg);
   background-position: center;
   background-size: cover !important;
   color: white;
@@ -17,12 +17,25 @@
 }
 
 .SideBar a:hover{
-  color: #0d0f11;
+  color: #275e89;
 }
 
 .SideBar span{
+  display: flex;
   font-size: 2vh;
-  display: grid;
-  grid-template-columns: 5% 95%;  
   align-items: center;
+}
+
+.SideBar svg{
+  min-width: 20px;
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 1300px){
+  .SideBar {
+    background-image: linear-gradient(180deg, rgba(10, 10, 10, 0.6), rgb(245, 245, 245, 1)), url(./assets/background-image.jpg);
+    max-height: 150px;
+    padding-top: 20px;
+    padding-left: 1em;
+  }
 }

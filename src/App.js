@@ -3,9 +3,11 @@ import './App.css';
 import SideBar from './SideBar';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import { number } from 'prop-types';
 
 
 class ApiCall extends React.Component {
+
 
   constructor(props) {
     super(props)
@@ -43,7 +45,7 @@ class ApiCall extends React.Component {
       })
       .then(function (result) { 
         let response = result
-
+        
         that.setState({data: response.results})
       });
     }
