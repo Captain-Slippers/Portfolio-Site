@@ -43,6 +43,14 @@ html, body, #root{
   margin-bottom: 0;
 }
 
+.Main-Cards a{
+  transition-duration: 300ms;
+}
+
+.Main-Cards a:hover{
+  transform: scale(1.05,1.05);
+}
+
 .image {
   max-height: 400px;
   max-width: 300px;
