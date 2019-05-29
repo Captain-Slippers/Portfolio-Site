@@ -14,6 +14,7 @@ class SideBar extends React.Component{
       <div className="SideBar">
         <h1>Adam Hall</h1>
         <h3>Full Stack Developer</h3>
+        <p class="skills">HTML, CSS, Javascript, NodeJS, PHP</p>
         <span>
           <FontAwesomeIcon icon="link" />
           <p><a href="https://github.com/Captain-Slippers">github.com/Captain-Slippers</a></p>

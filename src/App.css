@@ -68,4 +68,7 @@ html, body, #root{
   .Main-Cards {
     grid-template-columns: 100% !important;
   }
+  .Main-Content {
+    padding-right: 2em; 
+  }
 }

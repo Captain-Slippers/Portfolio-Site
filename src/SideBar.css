@@ -8,7 +8,16 @@
 }
 
 .SideBar p{
-  margin: 0
+  margin: 0;
+}
+
+.skills{
+  font-size: small;
+  margin-bottom: 20px !important;
+}
+
+.SideBar h3{
+  margin-bottom: 0;
 }
 
 .SideBar a{
