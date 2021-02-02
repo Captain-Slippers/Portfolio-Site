@@ -25,7 +25,8 @@ class SideBar extends React.Component{
         </span>
         <span>
           <FontAwesomeIcon icon="user" />
-          <p>Available for hire</p>
+          <p>Developer at <a href="https://etrainu.com">etrainu.com</a></p>
+          <p>Available light contract work</p>
         </span>
       </div>
     );
